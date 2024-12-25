@@ -9,7 +9,7 @@ activate virtual environment
 
 for macOS: ```bash source env/bin/activate ```
 
-for Windows: ```bash env\Scripts\activate ```
+for Windows: ```bash env/Scripts/activate ```
 
 install requirements
 
