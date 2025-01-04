@@ -1,20 +1,65 @@
-# **Setup Python Environment**
+# **1. Setup Python Environment**
+
+To download the repo from our repo:
+
+Navigate to the directory where you want to puy the repo in and command in your terminal
+
+```bash
+git clone https://github.com/StrikerEurika/Diabetes-Classification.git
+```
+
+Navigate to `Diabetes-Classification` by
+
+```bash
+cd Diabetes-Classification
+```
 
 create python environment
 
 ```bash
-python -m venv env
+python -m venv venv_name
 ```
 activate virtual environment
 
-for macOS: ```bash source env/bin/activate ```
+for macOS
 
-for Windows: ```bash env/Scripts/activate ```
+```bash
+source venv_name/bin/activate 
+```
+
+for Windows: 
+
+```bash
+venv_name/Scripts/activate
+```
+
+for Git Bash (Please carefully check):
+
+```bash
+source venv_name/Scripts/activate
+```
+
+Check the Environment Activation
+
+```bash
+which python
+```
+
+*Make sure that you see `~/Diabetes-Classification/venv_name/Scripts/python`, which means you've successfully activated virtual python environment* ༼ つ ◕_◕ ༽つ
 
 install requirements
 
 ```bash
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
-# **Diabetes-Classification**
+# **2. Diabetes-Classification**
+
+<div style="border: 2px solid #000; padding: 10px; width: 200px; border-radius: 5px; text-align: center; text-align: left; padding-left: 25px;">  
+    <h3>Team Members</h3>  
+    <p>Neang Vanna (Yakuzana)</p>
+    <p>Nov Panhavath</p>  
+    <p>Nob Sreynich</p>  
+    <p>Sophat Vitou</p>  
+    <p>Ngen Tina (Mey)</p>  
+</div>
