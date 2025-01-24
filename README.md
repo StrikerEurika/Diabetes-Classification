@@ -17,26 +17,26 @@ cd Diabetes-Classification
 create python environment
 
 ```bash
-python -m venv venv_name
+python -m venv .venv
 ```
 activate virtual environment
 
 for macOS
 
 ```bash
-source venv_name/bin/activate 
+source .venv/bin/activate 
 ```
 
 for Windows: 
 
 ```bash
-venv_name/Scripts/activate
+.venv/Scripts/activate
 ```
 
 for Git Bash (Please carefully check):
 
 ```bash
-source venv_name/Scripts/activate
+source .venv/Scripts/activate
 ```
 
 Check the Environment Activation
@@ -45,7 +45,7 @@ Check the Environment Activation
 which python
 ```
 
-*Make sure that you see `~/Diabetes-Classification/venv_name/Scripts/python`, which means you've successfully activated virtual python environment* ༼ つ ◕_◕ ༽つ
+*Make sure that you see `~/Diabetes-Classification/.venv/Scripts/python`, which means you've successfully activated virtual python environment* ༼ つ ◕_◕ ༽つ
 
 install requirements
 
